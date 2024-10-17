@@ -2,13 +2,25 @@
 
 Interact with age's passphrase-based encryption.
 
-!!! hint
+## Subcommands
 
-    To get a full list of subcommands run:
+### `age encrypt` [*file*...]
 
-    ```console
-    $ chezmoi age help
-    ```
+Encrypt file or standard input.
+
+#### `-p`, `--passphrase`
+
+Decrypt with a passphrase.
+
+### `age decrypt` [*file*...]
+
+Decrypt file or standard input.
+
+#### `-p`, `--passphrase`
+
+Decrypt with a passphrase.
+
+## Example
 
 !!! example
 
